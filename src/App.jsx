@@ -1,5 +1,15 @@
+import Container from "./Components/Container";
+import Footer from "./Components/Footer";
+import Header from "./Components/Header";
+import "./index.css";
 function App() {
-  return <h1>Word Analytics</h1>;
+  return (
+    <>
+      <Header />
+      <Container />
+      <Footer />
+    </>
+  );
 }
 
 export default App;
